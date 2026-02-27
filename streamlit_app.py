@@ -6,6 +6,7 @@ import base64
 # --------------------------------------------------
 st.set_page_config(
     page_title="StreamWave Multimedia Analytics",
+    page_icon="🎬",
     layout="wide"
 )
 
