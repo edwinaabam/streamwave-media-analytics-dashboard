@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./streamwavedashboardpic.png" alt="Streamwave Mulitmedia Dashboard" width="100%">
+  <img src="./streamwavedashboard.png" alt="Streamwave Mulitmedia Dashboard" width="100%">
 </p>
 
 ### <a href="https://media-analytics-dashboard.streamlit.app//" target="_blank">Access the live Stream wave multimedia dashboard</a>
