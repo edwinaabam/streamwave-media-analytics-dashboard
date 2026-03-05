@@ -1,5 +1,6 @@
 import streamlit as st
 import base64
+import streamlit.components.v1 as components
 
 # --------------------------------------------------
 # PAGE CONFIG
@@ -90,9 +91,14 @@ tab1, tab2, tab3 = st.tabs([
 with tab1:
     st.markdown("### Multimedia Performance Dashboard")
 
-    st.components.v1.iframe(
-        "https://1drv.ms/x/c/62ed36bcf96b63c6/IQALntCNbXfgS6l-xjpGRmwIAR937NlhVHD-3xxKZUZfdFQ?e=YrzfZO",
-        height=780,
+    # This is the specific URL you provided
+    excel_url = "https://1drv.ms/x/c/62ed36bcf96b63c6/IQQLntCNbXfgS6l-xjpGRmwIAbr01Fye9Oq5CA5PtXMHNy4?em=2&wdAllowInteractivity=False&wdHideGridlines=True&wdHideHeaders=True&wdInConfigurator=True&wdInConfigurator=True"
+
+    # We use height=800 to match your GrandStay look 
+    # The width will automatically be 100% of your 1220px container
+    components.iframe(
+        excel_url,
+        height=800, 
         scrolling=True
     )
 
