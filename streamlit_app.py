@@ -91,7 +91,7 @@ with tab1:
     st.markdown("### Multimedia Performance Dashboard")
 
     st.components.v1.iframe(
-        "https://1drv.ms/x/c/62ed36bcf96b63c6/IQRcjOi-bU7lTKYkr5AMDYlDAaQBXDIfXv-avL35BC3NOrc?em=2&wdHideGridlines=True&wdHideHeaders=True&wdInConfigurator=True&wdInConfigurator=True",
+        "https://1drv.ms/x/c/62ed36bcf96b63c6/IQALntCNbXfgS6l-xjpGRmwIAR937NlhVHD-3xxKZUZfdFQ?e=YrzfZO",
         height=780,
         scrolling=True
     )
